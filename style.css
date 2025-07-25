@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f5;
+  color: #333;
+}
+
+.app {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #d63384;
+  font-size: 2.5rem;
+}
+
+.search {
+  margin: 30px 0;
+}
+
+input {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 60%;
+  max-width: 400px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #e754a0;
+}
+
+.loading {
+  margin-top: 20px;
+  color: #555;
+}
+
+.grid {
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  color: #d63384;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+}
